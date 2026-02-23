@@ -1,0 +1,33 @@
+{
+	"name": "transfers-dashboard-interview",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "npx nuxt dev",
+		"build": "npx nuxt build",
+		"generate": "npx nuxt generate",
+		"preview": "npx nuxt preview",
+		"start": "node .output/server/index.mjs",
+		"postinstall": "npx nuxt prepare",
+		"lint": "npx eslint . && npx prettier --check .",
+		"lint:fix": "npx eslint . --fix && npx prettier --write .",
+		"test": "echo 'No tests yet'"
+	},
+	"dependencies": {
+		"nuxt": "^3.19.3"
+	},
+	"devDependencies": {
+		"@typescript-eslint/parser": "^8.51.0",
+		"eslint": "^9.39.1",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-vue": "~10.5.1",
+		"prettier": "^3.7.4",
+		"sass-embedded": "^1.97.3",
+		"typescript": "^5.9.2",
+		"vue-eslint-parser": "^10.2.0"
+	},
+	"engines": {
+		"node": ">=22.0.0"
+	}
+}

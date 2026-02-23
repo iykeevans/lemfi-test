@@ -1,0 +1,32 @@
+:root {
+	--bg: #f2f6fb;
+	--text: #12263a;
+	--muted: #5f7389;
+	--card: #ffffff;
+	--line: #d7e1ec;
+	--brand: #007a66;
+	--danger: #c93d3d;
+	--warning: #b7791f;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(160deg, #f2f6fb 0%, #e8f0f6 100%);
+	color: var(--text);
+	font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+.container {
+	width: min(1200px, 100% - 2rem);
+	margin: 1.5rem auto;
+}
